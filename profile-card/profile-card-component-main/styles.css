@@ -1,0 +1,115 @@
+    @media screen and (min-width: 375px) {
+        .container {
+            background-size: 25%;
+            background-position: top 0px left 0px, bottom -0px right -0px;
+        }
+    }
+    
+    body,
+    html {
+        font-family: 'Kumbh Sans', sans-serif;
+        font-size: 18px;
+        height: 100%;
+        width: 100%;
+        background-color: hsl(185, 75%, 39%);
+        margin: 0;
+    }
+    
+    .container {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+        background-repeat: no-repeat, no-repeat;
+        background-size: auto auto;
+        background-position: top -500px left -200px, bottom -600px right -200px;
+    }
+    
+    .id-card {
+        box-shadow: 10px 5px 20px hsl(227, 10%, 46%);
+    }
+    
+    section {
+        background-image: url("images/bg-pattern-card.svg");
+        background-repeat: no-repeat;
+        background-color: white;
+        border-radius: 1em;
+        width: 350px;
+        height: 375px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+    
+    footer {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    
+    .card-footer {
+        display: flex;
+        flex-direction: column;
+        width: 116px;
+        align-items: center;
+        margin: 20px auto 20px;
+        border-top: 1px solid lightgrey;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .victor {
+        size: 100%;
+        border-radius: 50%;
+        border: solid 5px white;
+        margin-top: 90px;
+    }
+    
+    .attribution {
+        font-size: 11px;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+    
+    h1 {
+        margin: 20px auto 10px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    
+    h2 {
+        margin: 0 auto 5px;
+        font-weight: 400;
+        font-size: 16px;
+        color: hsl(0, 0%, 59%);
+    }
+    
+    h3 {
+        margin: 0%;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 2rem;
+    }
+    
+    h4 {
+        margin: 0%;
+        font-weight: 400;
+        font-size: 12px;
+        color: hsl(0, 0%, 59%);
+    }
+    
+    span {
+        color: hsl(0, 0%, 59%);
+        font-weight: 400;
+    }
